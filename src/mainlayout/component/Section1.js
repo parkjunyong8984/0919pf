@@ -1,4 +1,4 @@
-import Se1 from '../../scss/main/content/Section1.module.css'
+import Se1css from '../../scss/main/content/Section1.module.scss'
 
 const Se1 = (props) => {
     <div>

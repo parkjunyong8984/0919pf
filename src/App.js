@@ -1,7 +1,7 @@
 import Hd from './mainlayout/Header'
 import Ct from './mainlayout/Content'
 import Ft from './mainlayout/Footer'
-import db from '../data/db.json'
+import db from './data/db.json'
 
 function App() {
   return (

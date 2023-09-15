@@ -4,48 +4,27 @@ const Hd = (props) => {
 
 
     return (
-        <div>
-            <header>
+        <div className={Hdcss.header}>
+            <header className={Hdcss.container}>
                 <div className={`d-flex justify-content-between`}>
-                    <a href="" className="d-block"><img src="" alt="logo" /></a>
-                    <ul className="" id={Hdcss.gnb}>
-                        <li className="">
-                            <a href="" className="d-block">menu</a>
-                            <ul>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                            </ul>
-                        </li>
-                        <li className="">
-                            <a href="" className="d-block"></a>
-                            <ul>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                            </ul>
-                        </li>
-                        <li className="">
-                            <a href="" className="d-block"></a>
-                            <ul>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                            </ul>
-                        </li>
-                        <li className="">
-                            <a href="" className="d-block"></a>
-                            <ul>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                                <li><a href="" className="d-block">SubMenu</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                    {/* <div className="">
+                        <ul>
+                            <li><a href="">언어</a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </div> */}
+                    <div className="">
+                        <a href=""><img src="./img/logo3.png" alt="" /></a>
+                    </div>
+                    <div className="">
+                        <ul className={`d-flex`}>
+                            <li className=""><a href="" className="d-block">차례</a></li>
+                            <li className=""><a href="" className="d-block">소개</a></li>
+                            <li className=""><a href="" className="d-block">전통놀이</a></li>
+                            <li className=""><a href="" className="d-block">체험장소</a></li>
+                        </ul>
+                    </div>
                 </div>
             </header>
         </div>

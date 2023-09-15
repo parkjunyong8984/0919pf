@@ -1,0 +1,73 @@
+.main{
+    background-image: url(../../img/Ctbase.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size:auto 57vw;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    // img{
+    //     width: 100vw;
+    //     height: 100vh;
+    //     margin: 0 auto;
+    //     display: block;
+        
+    // }
+    .text{
+        font-family: 'Kanibuk';
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        color: white;
+        display: flex;
+        font-size: 20px;
+        span{
+            margin-left: 10px;
+            writing-mode: vertical-lr; /* 텍스트를 세로로 표시하는 CSS 속성 */
+            text-orientation: upright; /* 텍스트를 세로로 유지 */
+            font-size: 20px; /* 글꼴 크기 조정 */
+        }
+    }
+    .button{
+        img{
+            position: absolute;
+            top: 45%;
+            left: 2%;
+            width: 65px;
+        }
+    }
+    ul{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        li{
+            background-color: rgba(255, 255, 255, 0.075);
+            width: 500px;
+            height: 145px;
+            margin-top: 80px;
+            display: flex;
+            align-items: center;
+        }
+        a{
+            img{
+                margin-left: 30px;
+                margin-bottom: 45px;
+            }
+        }
+        li>img{
+            position: absolute;
+            left: -10%;
+            width: 65px;
+            height: 65px;
+
+        }
+    }
+}
+.hb {
+    transform: rotate(-90deg); /* 텍스트를 90도 반시계 방향으로 회전 */
+    transform-origin: center center; /* 회전 중심을 텍스트 중앙으로 설정 */
+    white-space: nowrap; /* 텍스트 줄 바꿈 방지 */
+    font-size: 20px; /* 글꼴 크기 조정 */
+    display: inline-block; /* 텍스트를 인라인 블록으로 표시 */
+  }
