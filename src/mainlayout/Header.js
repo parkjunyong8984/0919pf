@@ -17,14 +17,12 @@ const Hd = (props) => {
                     <div className="">
                         <a href=""><img src="./img/logo3.png" alt="" /></a>
                     </div>
-                    <div className="">
-                        <ul className={`d-flex`}>
+                    <ul className={`d-flex`}>
                             <li className=""><a href="" className="d-block">차례</a></li>
                             <li className=""><a href="" className="d-block">소개</a></li>
                             <li className=""><a href="" className="d-block">전통놀이</a></li>
                             <li className=""><a href="" className="d-block">체험장소</a></li>
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
             </header>
         </div>

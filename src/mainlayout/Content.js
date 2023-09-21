@@ -19,9 +19,37 @@ const Ct = (props) => {
                 </p> */}
                 {/* <div className={Ctcss.button}><a href=""><img src="../img/but.png" alt="" /></a></div> */}
                 <ul>
-                    <li><img src="./img/icon.png" alt="" /><a href=""><img src="./img/img1.jpg" alt="" /></a></li>
-                    <li><img src="./img/icon.png" alt="" /><a href=""><img src="./img/img2.jpg" alt="" /></a></li>
-                    <li><img src="./img/icon.png" alt="" /><a href=""><img src="./img/img3.jpg" alt="" /></a></li>
+                    <li>
+                        <div className={Ctcss.dt}><p>추석 전통 음식에 대한 종류와 의의</p></div>
+                        <img src="./img/icon.png" alt="" />
+                        <div className='d-flex'>
+                        <a href="">
+                            <img src="./img/img1.jpg" alt="" />
+                        </a>
+                        <span>약과는 유밀과(油蜜果)의 하나로 정월에 많이 만들어 먹었으며 통과의례나 명절, 잔치, 제향(祭享) 때의 필수 음식이었다
+                              
+                            </span>
+                            </div>
+                    </li>
+                    <li>
+                        <div className={Ctcss.dt}><p>추석 전통 놀이의 방법과 의의</p></div>
+                        <img src="./img/icon.png" alt="" />
+                        <div className='d-flex'>
+                        <a href=""><img src="./img/img2.jpg" alt="" /></a>
+                        <span>강강술래놀이는 원무를 하는 외에 여러 놀이가 첨가되어 다양하게 전개되는 수도 있다. 손을 잡고 일렬로 서서 맨 앞에 있는 사람이 다음 사람의 팔 밑으로 꿰어 가는
+                             고사리꺾기가 있다.
+                        </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div className={Ctcss.dt}><p>추석 간에 차례와 성묘의 진행 절차와 유의점</p></div>
+                        <img src="./img/icon.png" alt="" />
+                        <div className='d-flex'>
+                        <a href=""><img src="./img/img3.jpg" alt="" /></a>
+                        <span>추석에는 설차례와 달리 흰 떡국 대신에 햅쌀로 밥을 짓고 술을 빚으며, 송편을 만들어 차례를 지낸다. 
+                        </span>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </>
